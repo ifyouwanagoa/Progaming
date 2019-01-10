@@ -5,8 +5,8 @@ const client = new Discord.Client();
 
 // playing
 client.on('ready', () => {                           
-});
-
+client.user.setGame(`♥ ℙℝ𝕆 𝔾𝔸𝕄𝕀ℕ𝔾 ♥ | Use: -help `,'https://www.twitch.tv/ℕ o v a Codes♥');
+  });
 
 client.on('message', message => {
               var prefix = "-" ;
