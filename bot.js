@@ -661,7 +661,7 @@ var prefix = "-";
           if(!message.channel.guild) return;
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
-          .setTitle('𝔾𝔼𝕂𝕆 𝕌𝕄𝔼')
+          .setTitle('MAFIA')
           .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=532879501978501120&permissions=8&scope=bot`)
            if(message.author.id !== "352533519068823556") return message.reply('**You aren\'t the bot owner.**');
           message.channel.send(mmmmEmbed)
@@ -799,12 +799,12 @@ client.on('message',async message => {
 
 
 client.on("message", message => {
- if (message.content === "$support") {
+ if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setTitle('Click here')
-      .setURL(' https://discord.gg/t8tXaS ')
+      .setURL(' https://discord.gg/tHk5Fc ')
       .setColor("RANDOM")
-      .setFooter('♥Premium BotEpic♥ جميع الحقوق محفوظة 2019 لبوت')  
+      .setFooter('♥ℙℝ𝕆 𝔾𝔸𝕄𝕀ℕ𝔾♥ جميع الحقوق محفوظة 2019 لبوت')  
       .addField('سيرفر الدعم الفني', ` https://discord.gg/t8tXaS  `)
   message.author.send({embed});
 
@@ -813,7 +813,7 @@ client.on("message", message => {
 
 
 client.on('message', message => {
-    if (message.content.startsWith("$avatar")) {
+    if (message.content.startsWith("-avatar")) {
         var mentionned = message.mentions.users.first();
     var x5bzm;
       if(mentionned){
@@ -831,7 +831,7 @@ client.on('message', message => {
 
 client.on('message', message => {
               if (!message.channel.guild) return;
-      if(message.content =='$members')
+      if(message.content =='-members')
       var kayan = new Discord.RichEmbed()
       .setThumbnail(message.author.avatarURL)
       .setFooter(message.author.username, message.author.avatarURL) 
